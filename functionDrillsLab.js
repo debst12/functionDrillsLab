@@ -290,7 +290,8 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
+const upperString = string => console.log(string.toUpperCase())
+upperString(sampleString)
 
 ////////////////// PROBLEM 18 ////////////////////
 /*
