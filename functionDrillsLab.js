@@ -148,7 +148,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+console.log("declaration")
 // expression
 
 
@@ -162,8 +162,17 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
-
+const nameCheck = name => {
+  if(name === 'Steven') {
+    return 'What is up, Steven?'
+  } else if (name === 'Bryan') {
+    return 'Hey, Bryan!'
+  } else{
+    return `Cool name, ${name}!`
+  }
+}
+let nameGreeting = nameCheck('Steven')
+console.log(nameGreeting)
 ////////////////// PROBLEM 11 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
