@@ -54,7 +54,10 @@ printName('Spencer')
 */
 
 //CODE HERE
-
+const greeting = (name) => {
+  return `Hello, ${name}`
+}
+console.log(greeting('Spencer'))
 
 ////////////////// PROBLEM 5 ////////////////////
 
