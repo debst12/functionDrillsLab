@@ -71,8 +71,14 @@ console.log(greeting('Spencer'))
 */
 
 //CODE HERE
-
-
+const compareNums = (num1,num2) => {
+  if(num1 === num2) {
+    return num1
+  } else {
+    Math.max(num1,num2)
+  }
+}
+console.log(compareNums(1,2))
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -82,7 +88,11 @@ console.log(greeting('Spencer'))
 */
 
 //CODE HERE
+const add = (num1, num2) => Number(num1) + Number(num2)
 
+const sum = add(5,4)
+
+console.log(sum)
 
 ////////////////// PROBLEM 7 ////////////////////
 
