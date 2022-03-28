@@ -184,7 +184,19 @@ console.log(nameGreeting)
 */
 
 //CODE HERE
-
+const faveColorFinder = color => {
+  switch (color) {
+    case 'red':
+      return 'red is a great color'
+    case 'green':
+      return 'green is a solid favorite color'
+    case 'black':
+      return 'so trendy'
+    default:
+      return 'you need to evaluate your favorite color choice'
+  }
+}
+console.log(faveColorFinder('orange'))
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -195,8 +207,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+const printAllNames = arrayOfNames => {
+  for (let i = 0; i < arrayOfNames.length; i++) {
+    console.log(arrayOfNames[i])
+  }
+}
+printAllNames(namesArr)
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
@@ -206,7 +222,10 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+const thatsOdd = num => num % 2 === 0 ? "That's not odd!" : 'That is odd indeed!'
 
+oddChecker = thatsOdd(5)
+console.log(oddChecker)
 
 ////////////////// PROBLEM 14 ////////////////////
 
