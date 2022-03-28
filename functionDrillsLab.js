@@ -38,8 +38,10 @@ const jsNinja = () => {
 */
 
 //CODE HERE
-
-
+const printName = (name) => {
+  console.log(name)
+}
+printName('Spencer')
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
